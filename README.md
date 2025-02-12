@@ -24,9 +24,11 @@ Cada vez que o interpretador Python precisar processar um comando de atribuiçã
 ### Objetos Imutáveis e Mutáveis
 Os objetos em Python são classificados em duas categorias: _imutável_ e _mutável_. Compreender a distinção entre essas duas categorias de objetos em Python é fundamental para criar um código livre de erros e que também seja eficiente e confiável. Segue um resumo sobre cada um dos termos:
 - Objetos imutáveis
+
 Em termos práticos: quando um objeto é imutável, depois de criado, se for preciso trocar seu conteúdo o objeto antigo é descartado e um novo é criado.
 `Números inteiros, números reais, strings, tuplas entre outros são imutáveis`
 - Objetos mutáveis
+
 Os objetos mutáveis são o outro lado dessa ideia. Ou seja, são aqueles cujo conteúdo pode ser alterado após serem criados. O id desses objetos se mantém o mesmo durante toda a vida dele enquanto seu conteúdo pode ser livremente alterado sempre que necessário.
  `Os objetos mutáveis são tipicamente as listas, dicionários e conjuntos`
 
