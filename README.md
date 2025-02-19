@@ -93,5 +93,56 @@ Quando a função `input()` é executada o computador aguarda que o usuário dig
 
 Exemplo de input com conversão da classe string() para int(): `A = int(input('Digite A: '))`
 
+# Comando Condicional (capítulo 4)
+## Conceito Geral
+Em programação, as decisões são tomadas com base nos valores armazenados em objetos. Por exemplo, considere dois objetos da classe int, A e B, previamente carregados. Se for necessário calcular a divisão de A por B e o valor de B for zero, ocorrerá um erro, pois divisões por zero não são permitidas. Esse tipo de erro é indesejável e deve ser evitado. Situações de erro assim são indesejáveis e é preciso tomar o cuidado de se evitá-las. Uma das formas (não a única) de se conseguir isso é usar o Comando Condicional: `if-else`
+
+Ao utilizar o comando condicional será necessário formular uma condição cujo resultado será uma de duas possibilidades: falso ou verdadeiro. Em função desse resultado o programa seguirá apenas um de dois possíveis caminhos distintos. A ideia básica é implementar um código que reflita esta frase: "se B for igual a zero, então apresente a mensagem 'Não é possível calcular a divisão', senão (ou seja, B é diferente de zero) calcule e apresente na tela A / B".
+
+### Indentação
+
+A relação de subordinação entre trechos de código e determinados comandos é um aspecto fundamental na lógica de um programa.
+
+Em programação, o termo _indentação_ refere-se ao uso de espaços em branco à esquerda de uma linha de código para evidenciar essa hierarquia, tornando a estrutura do programa mais clara e legível.
+
+Na maioria das linguagens, a indentação é opcional, ficando a critério do programador utilizá-la. No entanto, todos os bons programadores a adotam, pois ela melhora a organização e a compreensão do código.
+
+No Python, a indentação é obrigatória. Por exemplo, nas estruturas `if` e `else`, os comandos subordinados devem estar recuados para a direita, indicando sua relação hierárquica. De forma geral, em Python, qualquer conjunto de comandos subordinados deve estar devidamente indentado em relação ao seu comando principal. Isso se aplica a estruturas como `if-else`, `while`, `for`, `try`, `def` e qualquer outro bloco que exija subordinação.
+
+## Condições Simples
+O elemento central de um comando condicional é a condição a ser avaliada, cujo resultado pode ser verdadeiro ou falso. Por exemplo, a condição `B == 0` é considerada simples, pois segue a estrutura:
+
+`<expressão 1> <operador> <expressão 2>`
+
+As expressões 1 e 2 podem ser:
+- Um valor literal (como um número ou texto)
+- Um objeto
+- Uma fórmula (expressão aritmética)
+- Uma chamada de função
+  
+O operador utilizado deve ser um dos seis operadores relacionais abaixo. Nos operadores compostos por dois caracteres, não deve haver espaço entre eles:
+- `==` (Igual a)
+- `!=` (Diferente de)
+- `<` (Menor que)
+- `<=` (Menor ou igual a)
+- `>` (Maior que)
+- `>=` (Maior ou igual a)
+
+## Negação e Condições compostas
+
+Em diversas situações, é necessário negar uma condição simples ou combinar múltiplas condições em uma única expressão lógica. Para isso, utilizamos os operadores lógicos do Python. Existem três operadores principais:
+- `not` (Negação): inverte o valor lógico da condição à qual é aplicado.
+- `and` (Operação lógica **"e"**): retorna verdadeiro apenas se ambas as condições forem verdadeiras.
+- `or` (Operação lógica **"ou"**): retorna verdadeiro se pelo menos uma das condições for verdadeira.
+
+### Condições Compostas Mistas
+Esse é o caso mais abrangente, em que uma única condição composta combina os operadores **not**, **and** e **or**. Nessas situações, é essencial considerar a ordem de precedência dos operadores lógicos:
+- `not` é avaliado primeiro.
+- `and` vem em seguida.
+- `or` é avaliado por último.
+
+Se necessário, parênteses podem ser utilizados para modificar essa ordem e definir quais expressões devem ser avaliadas primeiro, garantindo maior clareza e controle sobre a lógica da condição.
+
+
 ---------------------------------------------
 `STATUS: em andamento`
