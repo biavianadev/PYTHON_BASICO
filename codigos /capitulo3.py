@@ -1,4 +1,4 @@
-# Comandos de Saída e Entrada
+# Comandos de Saída e Entrada - capítulo 3
 
 # Função print() - exibe o que está entre parenteses
 print('Esta é uma mensagem exemplo') # texto literal
