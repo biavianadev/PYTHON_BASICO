@@ -1,4 +1,4 @@
-# Introdução Python - Classes e Objetos
+# Introdução Python - capítulos 1 e 2
 
 # Comando de atribuição
 print(a) # mensagem de ERRO - não foi atribuído valor ao objeto 'a'
