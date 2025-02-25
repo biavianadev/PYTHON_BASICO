@@ -93,6 +93,8 @@ Quando a função `input()` é executada o computador aguarda que o usuário dig
 
 Exemplo de input com conversão da classe string() para int(): `A = int(input('Digite A: '))`
 
+------------------------------------------------
+
 # Comando Condicional (capítulo 4)
 ## Conceito Geral
 Em programação, as decisões são tomadas com base nos valores armazenados em objetos. Por exemplo, considere dois objetos da classe int, A e B, previamente carregados. Se for necessário calcular a divisão de A por B e o valor de B for zero, ocorrerá um erro, pois divisões por zero não são permitidas. Esse tipo de erro é indesejável e deve ser evitado. Situações de erro assim são indesejáveis e é preciso tomar o cuidado de se evitá-las. Uma das formas (não a única) de se conseguir isso é usar o Comando Condicional: `if-else`
@@ -143,6 +145,22 @@ Esse é o caso mais abrangente, em que uma única condição composta combina os
 
 Se necessário, parênteses podem ser utilizados para modificar essa ordem e definir quais expressões devem ser avaliadas primeiro, garantindo maior clareza e controle sobre a lógica da condição.
 
+## Comando Condicional - Forma Completa
+Agora que já exploramos as condições em detalhes, vamos retomar as explicações sobre o comando condicional if-else.
+
+O `if` é uma estrutura condicional que executa o bloco de comandos caso a condição especificada seja verdadeira. Se a condição for falsa, o bloco de comandos dentro do `else` será executado. Já a cláusula `elif` permite a inclusão de múltiplos critérios de decisão, possibilitando a verificação de condições adicionais.
+
+A lógica de execução desse comando segue os seguintes passos:
+- Primeiro, avalia-se a `<condição 1>`. Se for verdadeira, o `<bloco de comandos 1>` será executado, e os demais serão ignorados.
+- Caso `<condição 1>` seja falsa, passa-se para a avaliação da `<condição 2>`. Se for verdadeira, o `<bloco de comandos 2>` será executado, ignorando os demais.
+- Se `<condição 2>` também for falsa, a `<condição 3>` será avaliada. Se for verdadeira, o `<bloco de comandos 3>` será executado, ignorando os demais.
+- Esse processo se repete até que todas as condições tenham sido verificadas.
+- Se nenhuma das condições for verdadeira, o `<bloco de comandos do else>` será executado.
+  
+Essa é a forma completa do comando condicional. No entanto, as partes **elif** e **else** são opcionais e podem ser omitidas caso não sejam necessárias. Além disso, não há limite para a quantidade de **elif** que podem ser utilizados, permitindo ao programador adicionar quantos forem necessários para a implementação do seu programa.
+
+### Comandos Condicionais Alinhados
+É muito comum a necessidade de colocar um segundo comando `if` dentro de outro `if` ou `else`. Na pasta `codigos/capitulo4.py` verá um exemplo prático que como esse alinhamento funciona e a importância da indentação para o perfeito funcionamento do código.
 
 ---------------------------------------------
 `STATUS: em andamento`
