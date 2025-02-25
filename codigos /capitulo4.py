@@ -1,4 +1,4 @@
-# Comando Condicional
+# Comando Condicional - capítulo 4
 
 # Expressa a condição de verdadeiro ou falso, definindo um valor ao objeto, em cada caso
 A = int(input('Digite A: '))
