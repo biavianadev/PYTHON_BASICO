@@ -167,12 +167,12 @@ Essa é a forma completa do comando condicional. No entanto, as partes **elif** 
 # Comandos de Repetição (capítulo 5)
 Muitas vezes um determinado bloco de código precisa ser repetido várias vezes. A esta situação de execução de repetições em um programa damos o nome de "laço de repetição" ou "loop de repetição". Na linguagem Python existem dois comandos que realizam repetições, veremos o `comando while`
 
-## O Comando While
+## O Comando while
 O comando while em Python tem a construção básica e pode ser interpretada como: *"enquanto a condição for verdadeira execute o conjunto de comandos"*
 
 A condição segue exatamente as mesmas regras utilizadas nas condições já vistas no comando `if–else`. Os comandos subordinados ao while, podem ser quaisquer comandos válidos em Python, em qualquer quantidade e extensão. Assim como no comando if-else, a **indentação** é importante pois define a relação de subordinação entre o o comando e seu bloco de código subordinado.
 
-### Fluxo de Execução de Laços de Repetição While
+### Fluxo de execução de laços de repetição while
 O primeiro ponto é saber que o teste da condição é feito no início do laço. A avaliação da condição é feita antes de se executar o conjunto de comandos subordinado. Este
 fato tem uma implicação conceitual importante porque nos casos em que a condição for previamente falsa o conjunto subordinado não será executado nenhuma vez.
 
@@ -185,6 +185,17 @@ Todo laço para ser implementado requer quatro elementos:
 Os três primeiros dizem respeito à `estrutura` e `controle` do laço. A inicialização constitui-se de todo código necessário para determinar a situação inicial do laço. A condição de continuidade é uma expressão lógica, simples ou composta, cujo resultado é avaliado em `falso ou verdadeiro` a cada repetição e que determinará se o laço termina ou prossegue, respectivamente. A iteração é todo comando (um ou mais de um) que `modifica os objetos` envolvidos na condição de continuidade, a cada execução do laço.
 
 Por fim, o bloco de código subordinado é constituído pelos comandos que devem ser executados repetidas vezes.
+
+## Comando continue
+O comando `continue` altera o fluxo normal de execução de um laço de repetição. Ele é usado para `interromper` uma repetição que esteja em curso dentro de um laço e avançar para a próxima repetição.
+
+## Comando break
+O comando `break` também altera o fluxo de execução de um laço de repetição. Quando executado o break o laço é `encerrado` imediatamente.
+
+## Cláusula else do comando while
+Em Python a forma completa do comando `while` inclui uma parte `else`. 
+
+Seu funcionamento ocorre assim: o laço é repetido normalmente enquanto a condição for **verdadeira**. Quando a condição se tornar **falsa** o laço termina e o código do `else` é executado. Se um comando `break` existir no laço e for executado, então o `else` não é executado.
 
 ---------------------------------------------
 `STATUS: em andamento`
