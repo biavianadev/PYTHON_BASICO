@@ -8,7 +8,8 @@ else:
     print(f'O número {x} é ímpar')
 
 
-# 2. Escreva um programa que leia dois inteiros e mostre na tela apenas o menor dos dois. Se ambos forem iguais, mostre qualquer um deles.
+# 2. Escreva um programa que leia dois inteiros e mostre na tela apenas o menor dos dois. 
+# Se ambos forem iguais, mostre qualquer um deles.
 y = int(input('Digite o primeiro número: '))
 z = int(input('Digite o segundo número: '))
 if y < z:
@@ -19,7 +20,7 @@ else:
     print(f'Os dois números são iguais e valem {y}')
 
 
-# 3. Escreva um programa que leia a idade de uma pessoa e mostre se está de acordo ou não com a classificação indicativa de 16 anos.
+# 3. Escreva um programa que leia a idade de uma pessoa e mostre se está de acordo com a classificação de 16 anos.
 w = int(input('Digite a sua idade: '))
 if w >= 16:
     print('Você está de acordo com a classificação de 16 anos')
