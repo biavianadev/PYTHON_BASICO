@@ -37,6 +37,6 @@ while X > 0: # enquanto X for positivo faça as repetições
         print(' você digitou zero...')
         break
     print(X)
-else: # este else é executado quando X for negativo se X for zero não
+else: # este else é executado quando X for negativo e X não for zero
     print('você digitou negativo')
 print('Fim do Programa') 
