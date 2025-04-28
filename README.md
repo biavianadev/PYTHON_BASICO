@@ -198,4 +198,23 @@ Em Python a forma completa do comando `while` inclui uma parte `else`.
 Seu funcionamento ocorre assim: o laço é repetido normalmente enquanto a condição for **verdadeira**. Quando a condição se tornar **falsa** o laço termina e o código do `else` é executado. Se um comando `break` existir no laço e for executado, então o `else` não é executado.
 
 ---------------------------------------------
+
+# Tratamento de exceções (capítulo 6)
+## Conceitos básicos
+Erros podem ocorrer em sistemas computacionais, e o tratamento de exceções lida com essas situações especiais que fogem da lógica normal do programa. Exceções estão relacionadas a problemas com dados, como divisão por zero, erro de entrada, acesso a índices inválidos e valores incorretos. Esses erros podem causar falhas e prejuízos. Assim, elaborar uma boa estratégia de tratamento de exceções é essencial para criar programas robustos e confiáveis.
+
+Mas não poderíamos sempre evitar os erros usando `ifs`? Muitas vezes não, afinal os sistemas estão cada vez mais complexos. Prever e tratar todas as possibilidades de erro com condicionais deixaria o sistema ainda mais complicado. Por isso, a maioria das linguagens de programação oferece recursos específicos para identificar e tratar erros.
+
+### Tratamento de Exceções em Python – Forma Essencial
+Para implementar o tratamento de exceções em Python utiliza-se o comando `try-except`. O conceito envolvido neste comando é a proteção de um determinado bloco de código. A palavra-chave `try` dá início ao código protegido. Se algum erro ocorrer em qualquer linha deste bloco a execução é desviada para o bloco sob a cláusula `except`.
+
+### Tratamento de Exceções em Python - Forma Completa
+Em Python, o comando `try` pode incluir os blocos `else` e `finally`, seguindo essa ordem.
+
+- O `else` é executado apenas se não houver erro no bloco `try`.
+- Se ocorrer uma exceção, o `except` é executado, e o `else` é ignorado.
+- O `finally` sempre é executado, com ou sem erro, servindo para tarefas de finalização, como apagar arquivos temporários ou fechar conexões.
+
+---------------------------------------------
+
 `STATUS: em andamento`
