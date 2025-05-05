@@ -178,4 +178,67 @@ Blocos possíveis:
 
 ---------------------------------------------
 
+# Objetos Compostos (capítulo 7)
+
+## Conceito Geral
+
+Objetos compostos (ou estruturados) são fundamentais em Python, pois:
+
+- Permitem manipular grandes volumes de dados com eficiência e flexibilidade.
+- Seu conteúdo é acessível tanto individualmente quanto em grupo.
+
+Entre os objetos compostos, destacam-se os Objetos Sequenciais:
+
+- `Strings` (classe str)
+- `Listas` (classe list)
+- `Tuplas` (classe tuple)
+
+Esses objetos têm elementos organizados por índices numéricos iniciando em 0 (da esquerda para a direita). A indexação é feita com colchetes `[ ]`.
+
+## Listas – classe list 
+
+- São sequências que armazenam objetos de qualquer classe.
+- Exibição pode ser feita com `print(lista)` ou por laço com `print(lista[i])`.
+
+Podem ser:
+
+  - **Homogêneas**: elementos de uma única classe.
+  - **Heterogêneas**: elementos de diferentes classes.
+
+## Operações com Listas 
+
+### Indexação
+
+- Acesso via índices inteiros: `lista[0]`, `lista[1]`, etc.
+- Índices negativos acessam de trás para frente: `lista[-1]`, `lista[-2]`, etc.
+- Acesso fora dos limites gera `IndexError`.
+
+### Eliminação de elementos
+
+- Usa-se a função `del`: `del lista[i]` remove o elemento do índice i.
+
+### Fatiamento (slicing)
+
+Permite criar sublistas a partir de outra lista:
+
+- Sintaxe: `nova_lista = lista[ini:fim]` (exclui o índice `fim`)
+- Com passo: `nova_lista = lista[ini:fim:passo]`
+
+Parâmetros podem ser omitidos:
+
+  - `lista[:fim]` – do início até fim-1
+  - `lista[ini:]` – de ini até o fim
+
+### Cópia de listas
+
+- Atribuição direta (`B = A`) copia apenas a referência, não os dados. Para cópia real (nova lista), use slicing: `B = A[:]`
+
+### Operador in
+
+- Verifica se um valor está na lista: `x in lista`
+- Pode ser negado: `x not in lista`
+- Funciona com outros objetos compostos além de listas.
+
+---------------------------------------------
+
 `STATUS: em andamento`
