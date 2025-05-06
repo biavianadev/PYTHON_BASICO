@@ -117,6 +117,17 @@ Em caso de uma condição composta mista, o programa segue essa sequência: `not
 
 O comando `if-elif-else` permite testar várias condições:
 
+```python
+if <condição 1>:
+    <bloco de comandos 1>
+elif <condição 2>:
+    <bloco de comandos 2>
+elif <condição 3>:
+    <bloco de comandos 3>
+else:
+    <bloco de comandos do else>
+```
+
 - Executa o bloco do primeiro `if` verdadeiro.
 - Se nenhum `if`/`elif` for verdadeiro, executa o `else` (opcional).
 - Pode haver múltiplos `elif`.
@@ -133,6 +144,11 @@ O comando `if-elif-else` permite testar várias condições:
 
 Estrutura: "enquanto a condição for verdadeira, execute o bloco".
 Importante: a condição é testada antes da primeira execução.
+
+```python
+while <condição>:
+    <conjunto de comandos>
+```
 
 Elementos de um laço:
 
@@ -153,6 +169,13 @@ Interrompe o laço imediatamente.
 
 Em Python a forma completa do comando `while` inclui uma parte `else`. 
 
+```python
+while <condição>
+    <bloco de comandos 1 – que pode conter um break>
+else:
+    <bloco de comandos 2>
+```
+
 Seu funcionamento ocorre assim: o laço é repetido normalmente enquanto a condição for **verdadeira**. Quando a condição se tornar **falsa** o laço termina e o código do `else` é executado. Se um comando `break` existir no laço e for executado, então o `else` não é executado.
 
 --------------------------------------
@@ -167,9 +190,27 @@ Exceções lidam com erros inesperados (como divisão por zero). Usar apenas `if
 
 Usa-se `try-except`. Se ocorrer erro no `try`, o controle passa para o `except`.
 
+```python
+try:
+    <bloco de código protegido>
+except:
+    <bloco de tratamento da exceção>
+```
+
 ### Tratamento de Exceções em Python - Forma Completa
 
 Blocos possíveis:
+
+```python
+try:
+    <bloco 1>
+except:
+    <bloco 2>
+else:
+    <bloco 3>
+finally:
+    <bloco 4>
+```
 
 - `try`: código protegido
 - `except`: executado em caso de erro
@@ -238,6 +279,97 @@ Parâmetros podem ser omitidos:
 - Verifica se um valor está na lista: `x in lista`
 - Pode ser negado: `x not in lista`
 - Funciona com outros objetos compostos além de listas.
+
+## A classe range
+
+### Conceito
+
+Apesar de ser chamada com parênteses, `range` não é uma função, e sim um tipo sequencial imutável. Serve para criar sequências de números inteiros comumente usadas em laços de repetição.
+
+### Sintaxe geral
+
+`range(start, stop[, step])`
+
+- **start:** valor inicial (opcional, padrão é 0)
+- **stop:** valor final (obrigatório, mas não incluído na sequência)
+- **step:** passo (opcional, padrão é 1)
+
+Exemplos:
+
+```python
+range(10) → [0, 1, ..., 9]  
+range(3, 8) → [3, 4, 5, 6, 7]  
+range(5, 12, 3) → [5, 8, 11]
+```
+
+**Observações:**
+
+- Para exibir os valores da sequência na tela, é necessário convertê-la com `list()`.
+- Exemplo: `print(list(range(5, 12, 3)))`
+- Para incluir o último valor na sequência, é comum usar:
+  `range(início, último+1, passo)`
+
+## O comando for 
+
+### Conceito
+
+`for` é um comando de repetição específico para iterar sobre objetos estruturados como:
+
+- listas, strings, tuplas, dicionários, conjuntos e objetos `range`.
+
+### Estrutura geral
+
+```python
+for objctrl in objseq:
+    bloco1
+else:
+    bloco2
+```
+
+Funcionamento:
+
+1. objseq é verificado como iterável.
+2. objctrl recebe um valor por vez de objseq.
+3. bloco1 é executado para cada valor.
+4. Se o laço terminar normalmente, bloco2 (else) é executado.
+
+**Comandos adicionais:**
+
+- `continue`: interrompe a repetição atual e passa ao próximo item.
+- `break`: encerra o laço imediatamente (impede a execução do else).
+
+### Uso comum:
+
+```python
+for i in range(5):
+    print(i)
+```
+
+## Operadores com Classes Sequenciais 
+
+### Concatenação com "+"
+
+Une duas sequências do mesmo tipo (listas, tuplas ou strings).
+
+Exemplo:
+
+```python
+A = [10, 12]
+B = [20, 22]
+R = A + B  → [10, 12, 20, 22]
+```
+
+### Multiplicação com "\*"
+
+Repete uma sequência várias vezes.
+
+Exemplos:
+
+```python
+A = [1, 2, 3] * 3  → [1, 2, 3, 1, 2, 3, 1, 2, 3]  
+B = [0] * 10       → [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+```
+
 
 ---------------------------------------------
 
