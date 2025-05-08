@@ -1,11 +1,3 @@
-## Sumário
-* [Introdução Python - capítulo 1 e 2](#introducao-python---capitulo-1-e-2)
-* [Comandos de Entrada e Saída - capítulo 3](#comandos-de-entrada-e-saida---capitulo-3)
-* [Comandos Condicionais - capítulo 4](#comandos-condicionais---capitulo-4)
-* [Comandos de Repetição - capítulo 5](#comandos-de-repeticao---capitulo-5)
-* [Tratamento de Exceções - capítulo 6](#tratamento-de-excecoes---capitulo-6)
-* [Objetos Compostos - capítulo 7](#objetos-compostos---capitulo-7)
-
 # Introdução Python - capítulo 1 e 2
 
 ## Classes e Objetos
