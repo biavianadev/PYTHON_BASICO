@@ -1,10 +1,10 @@
 ## Sumário
-* [Introdução Python (capítulo 1 e 2)](introdução-python (capítulo 1 e 2))
-* [Comandos de Entrada e Saída (capítulo 3)](comandos-de-entrada-e-saída (capítulo 3))
-* [Comandos Condicionais (capítulo 4)](comandos-condicionais (capítulo 4)) 
-* [Comandos de Repetição (capítulo 5)](#comandos-de-repetição (capítulo 5))
-* [Tratamento de Exceções (capítulo 6)](tratamento-de-exceções (capítulo 6))
-* [Objetos Compostos (capítulo 7)](objetos-compostos (capítulo 7))
+* [Introdução Python (capítulo 1 e 2)](#introdução-python (capitulo 1 e 2))
+* [Comandos de Entrada e Saída (capítulo 3)](#comandos-de-entrada-e-saida (capitulo 3))
+* [Comandos Condicionais (capítulo 4)](#comandos-condicionais (capitulo 4)) 
+* [Comandos de Repetição (capítulo 5)](#comandos-de-repetição (capitulo 5))
+* [Tratamento de Exceções (capítulo 6)](#tratamento-de-exceções (capitulo 6))
+* [Objetos Compostos (capítulo 7)](#objetos-compostos (capitulo 7))
 
 # Introdução Python (capítulo 1 e 2)
 
