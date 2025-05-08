@@ -1,6 +1,6 @@
 ## Sumário
 * [Introdução Python (capítulo 1 e 2)](#introdução-python (capitulo 1 e 2))
-* [Comandos de Entrada e Saída (capítulo 3)](#comandos-de-entrada-e-saida (capitulo 3))
+* [Comandos de Entrada e Saída - capítulo 3](#comandos-de-entrada-e-saida---capitulo-3)
 * [Comandos Condicionais (capítulo 4)](#comandos-condicionais (capitulo 4)) 
 * [Comandos de Repetição (capítulo 5)](#comandos-de-repetição (capitulo 5))
 * [Tratamento de Exceções (capítulo 6)](#tratamento-de-exceções (capitulo 6))
@@ -53,7 +53,7 @@ Disponíveis em bibliotecas:
 
 ------------------------------------------
 
-# Comandos de Entrada e Saída (capítulo 3)
+# Comandos de Entrada e Saída - capítulo 3
 
 ## Função print()
 
