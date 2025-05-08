@@ -370,7 +370,48 @@ A = [1, 2, 3] * 3  → [1, 2, 3, 1, 2, 3, 1, 2, 3]
 B = [0] * 10       → [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 ```
 
+## Tuplas – classe tuple
+
+### Conceito
+
+`Tuplas` são sequências **imutáveis**, ou seja, seus elementos não podem ser alterados após a criação. São usadas principalmente para armazenar dados heterogêneos (como diferentes tipos de dados), embora também possam ser homogêneas.
+
+### Aplicações comuns
+
+- Representar coordenadas `(x, y)`, como em gráficos e jogos.
+- Armazenar cores em formato `RGB`.
+- Guardar registros fixos como (matrícula, nome, idade) em bancos de dados.
+
+### Características principais
+
+- **Imutabilidade:** não podem ser modificadas após criadas.
+- Consomem menos memória que listas.
+- **Sintaxe:** podem ser criadas com ou sem parênteses.
+  Exemplo: `T = (10, "azul", 3.14)`, `V = (1, 2, 3)`, `U = 5`, `"verde"`, `True`
+- Suportam indexação, iteração (com for), e conversão para listas e vice-versa.
+
+## String - classe str
+
+### Conceito
+
+`Strings` são sequências de caracteres (textos), pertencentes à classe str. São extremamente comuns em qualquer programa, desde os mais simples até os mais avançados.
+
+### Observações
+
+- São **imutáveis**.
+- Suportam os mesmos comportamentos de outras sequências: indexação, fatiamento, iteração, concatenação.
+- Para mais métodos específicos, consultar a documentação oficial do Python, pelo link: https://docs.python.org/pt-br/3/library/stdtypes.html#string-methods
+
+## Características comuns a listas, tuplas e strings
+
+- **Ordenadas**: mantêm a ordem dos elementos conforme inseridos.
+- **Indexáveis**: permitem acessar elementos por índices inteiros iniciando em zero.
+- **Aninháveis**: podem conter outras sequências. Ex.: lista de listas, tupla de tuplas, etc.
+- **Iteráveis**: podem ser percorridas com for ou compreensões de listas.
+- **Fatiáveis**: suportam fatiamento para extrair subconjuntos.
+- **Combináveis**: aceitam concatenação com o operador +.
 
 ---------------------------------------------
 
-`STATUS: em andamento`
+`STATUS: finalizado`  
+> códigos em andamento
