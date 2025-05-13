@@ -414,4 +414,5 @@ B = [0] * 10       → [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 ---------------------------------------------
 
 `STATUS: finalizado`  
-> códigos em andamento
+> códigos finalizados
+> exercícios em andamento
