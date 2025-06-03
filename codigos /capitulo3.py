@@ -33,9 +33,9 @@ D = 32
 s2 = f"Valores: C é {C} e D é {D}" # começar com "f"
 print(s2)
 # outras formatações com f-string
-E = f"Dado = {A:d}"
+E = f"Dado = {C:d}"
 print(E)
-F = f"Dado = {A:f}"
+F = f"Dado = {C:f}"
 print(F)
 
 
