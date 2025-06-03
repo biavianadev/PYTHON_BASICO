@@ -17,7 +17,7 @@ print('Valor de X =', X) # texto literal + valor do objeto
 # Função .format()
 A = 36
 B = 48
-s = "Valores: A = {0} e B = {1}".format(X, Y)
+s = "Valores: A = {0} e B = {1}".format(A, B)
 print(s)
 # outras formatações com .format()
 X = 4.586
