@@ -387,7 +387,7 @@ B = [0] * 10       → [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 - **Imutabilidade:** não podem ser modificadas após criadas.
 - Consomem menos memória que listas.
 - **Sintaxe:** podem ser criadas com ou sem parênteses.
-  Exemplo: `T = (10, "azul", 3.14)`, `V = (1, 2, 3)`, `U = 5`, `"verde"`, `True`
+  Exemplo: `T = (10, "azul", 3.14)`; `V = (1, 2, 3)`; `U = 5`, `"verde"`, `True`
 - Suportam indexação, iteração (com for), e conversão para listas e vice-versa.
 
 ## String - classe str
