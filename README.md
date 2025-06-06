@@ -415,5 +415,3 @@ B = [0] * 10       → [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 `STATUS: finalizado`  
 > códigos finalizados
-
-> exercícios em andamento
